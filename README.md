@@ -6,7 +6,7 @@ This is a package for phrase-level sentiment analysis [5], it can extract **feat
 
 This is a challenging task since in many cases the sentiment is context-aware, e.g., for the same opinion word "high," when used to describe the feature word "quality" (i.e., quality|high), it presents a positive sentiment, however, when used to describe the feature word "noise" (i.e., noise|high), it instead presents a negative sentiment.
 
-Extracting feature-opinion pairs and their sentiments from text corpora is very helpful to many tasks, e.g., they help to develop explainable recommendatioin models [1,2,3,4], analyze customer and/or public opinions [5], and build conversational AI systems [6].
+Extracting feature-opinion pairs and their sentiments from text corpora is very helpful to many tasks, e.g., they help to develop explainable recommendatioin models [1,2,3,4,7], analyze customer and/or public opinions [5], and build conversational AI systems [6].
 
 ## Instruction
 
@@ -50,6 +50,13 @@ profile.indicatorfile = ${path.profile}/2014.nus.utf.indicator
 
 For the English version, you may refer to the "2014.nus.profile.task" file under the "task" folder, which is a complete profile task file. For the Chinese version, you need to modified the corresponding task file in a similar way.
 
+3. Another helpful guide to used the package can be seen here:
+
+```
+https://github.com/lileipisces/Sentires-Guide
+```
+
+In this guide, the toolkit was used to generate natural language expalantions for personalized recommendation [7].
 
 ## References
 ```
@@ -71,4 +78,7 @@ For the English version, you may refer to the "2014.nus.profile.task" file under
 [6] Yongfeng Zhang, Xu Chen, Qingyao Ai, Liu Yang, and W. Bruce Croft. 
     "Towards conversational search and recommendation: System ask, user respond." 
     In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 177-186. 2018.
+[7] Lei Li, Yongfeng Zhang, and Li Chen. 
+    "Generate neural template explanations for recommendation." 
+    In Proceedings of the 29th ACM International Conference on Information & Knowledge Management, pp. 755-764. 2020.
 ```
