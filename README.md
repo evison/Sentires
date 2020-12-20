@@ -57,7 +57,7 @@ For the English version, you may refer to the "2014.nus.profile.task" file under
 
 3. After you run the "profile" step, you will get the [dataset].pos.profile and [dataset].neg.profile files, and the contents of the file will look like this:
 
-![](image/image-1.png)
+- ![](image/image-1.png)
 
 4. Another helpful guide to used the package can be seen in the following page, which shows how to use the package in Python environment:
 
