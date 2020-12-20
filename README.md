@@ -55,7 +55,7 @@ A final note is that the parameters in the "lexicon" task will influence the tra
 [3] Yikun Xian, Zuohui Fu, S. Muthukrishnan, Gerard De Melo, and Yongfeng Zhang. 
     "Reinforcement knowledge graph reasoning for explainable recommendation." 
     In Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 285-294. 2019.
-[4] Yikun Xian, Zuohui Fu, Handong Zhao, Yingqiang Ge, Xu Chen, Qiaoying Huang, Shijie Geng et al. 
+[4] Yikun Xian, Zuohui Fu, Handong Zhao, Yingqiang Ge, Xu Chen, Qiaoying Huang, Shijie Geng, Zhou Qin, Gerard de Melo, S. Muthukrishnan, Yongfeng Zhang
     "CAFE: Coarse-to-fine neural symbolic reasoning for explainable recommendation." 
     In Proceedings of the 29th ACM International Conference on Information & Knowledge Management, pp. 1645-1654. 2020.
 [5] Yongfeng Zhang, Haochen Zhang, Min Zhang, Yiqun Liu, and Shaoping Ma.
