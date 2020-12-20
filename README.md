@@ -4,20 +4,13 @@
 
 This is a package for phrase-level sentiment analysis [5], it can extract **feature|opinion|sentiment** triplets to construct a context-sensitive sentiment lexicon from free-text corpus such as customer reviews in e-commerce and tweets/messages in social networks.
 
-For exmple, in the customer reviews of the mobile phone product domain, some example triplets include 'picture|clear|positive', 'battery life|short|negative', 'quality|high|positive', or 'noise|high|negative'. For the triplet "quality|high|positive", it means when the opinion word "high" is used to describe the feature word "quality," the feature-opinion pair presents a positive sentiment. The task is challenging since in many cases the sentiment is context-aware, e.g., for the same opinion word "high," when used to describe the feature word "quality" (i.e., quality|high), it presents a positive sentiment, however, when used to describe the feature word "noise" (i.e., noise|high), it instead presents a negative sentiment.
+For exmple, in the customer reviews of the mobile phone product domain, some example triplets include 'picture|clear|positive', 'battery life|short|negative', 'quality|high|positive', or 'noise|high|negative'. For the triplet "quality|high|positive", it means when the opinion word "high" is used to describe the feature word "quality," the feature-opinion pair presents a positive sentiment. 
 
+The task is challenging since in many cases the sentiment is context-aware, e.g., for the same opinion word "high," when used to describe the feature word "quality" (i.e., quality|high), it presents a positive sentiment, however, when used to describe the feature word "noise" (i.e., noise|high), it instead presents a negative sentiment.
 
-The package further contains a module that is capable of matching the triplets contained in a sentence or a paragraph.
+The package further contains a module that is capable of matching the triplets contained in a sentence or a paragraph. Some techniques of this toolkit are presented in papers [1,5]. Extracting feature-opinion pairs and their sentiments from text corpora is very helpful to many tasks, e.g., they help to develop explainable recommendatioin models [1,2,3,4,7,8], analyze customer and/or public opinions [5], and build conversational AI systems [6].
 
-
-
-Extracting feature-opinion pairs and their sentiments from text corpora is very helpful to many tasks, e.g., they help to develop explainable recommendatioin models [1,2,3,4,7], analyze customer and/or public opinions [5], and build conversational AI systems [6].
-
-it extracts 'feature-opinion-sentiment' entries to construct a context-sensitive sentiment lexicon from large scale online textual user reviews based on both statistical and machine learning techniques. For exmple, in the product domain of mobile phone, sampled entries include 'picture-clear-positive', 'battery life-short-negative', 'quality-high-positive', or 'noise-high-negative'. It further contains a module that is capable of matching the entries contained in a piece of review, and another module that contructs feature-level profiles for online items according to the user reviews made towards a specific product.
-
-Key techniques of this toolkit are presented in our paper [1-3], and two demos of feature-level online product comparison can be visited at http://tv.thuir.org and http://mobile.thuir.org. This toolkit was used for explainable recommendation in [4-6], and time-aware recommendation in [7]. It has also been applied to a practical system in a commercial company and achieved good results.
-
-We provide executable jar balls in two versions, one for processing English texts, and the other for Chinese. To obtain this toolkit, just email zhangyf07@gmail.com with the subject line Sentires: Phrase-level Sentiment Analysis toolkit, and indicate the version (English or Chinese, or both) that you need (see below). We appreciate if you cite one or more of the following publications that are related to your research.
+The executable jar balls are provided in two versions, one for processing English texts, and the other for Chinese texts.
 
 ## Instruction
 
@@ -93,4 +86,7 @@ In this guide, the toolkit was used to generate natural language expalantions fo
 [7] Lei Li, Yongfeng Zhang, and Li Chen. 
     "Generate neural template explanations for recommendation." 
     In Proceedings of the 29th ACM International Conference on Information & Knowledge Management, pp. 755-764. 2020.
+[8] Xu Chen, Zheng Qin, Yongfeng Zhang, and Tao Xu.
+    "Learning to rank features for recommendation over multiple categories."
+    In Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, pp. 305-314. 2016.
 ```
