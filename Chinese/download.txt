@@ -1,1 +1,14 @@
+The Chineses version can be downloaded from here:
 
+[1] 
+
+or from here:
+
+[2] URL: http://pan.baidu.com/s/1kTMjcRd Password: whpn
+
+Note: You need to add two lines of configuration:
+
+profile.indicatorfile = ${path.profile}/2014.nus.utf.indicator
+profile.indicatorfile.charset = UTF8
+
+into the "2014.nus.profile.task" file under the "task" folder. Please see the README.md for more information.
