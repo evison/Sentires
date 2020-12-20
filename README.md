@@ -51,7 +51,7 @@ profile.indicatorfile.charset = UTF8
 
 For the English version, you may refer to the "2014.nus.profile.task" file under the "task" folder, which is a complete profile task file. For the Chinese version, you need to modified the corresponding task file in a similar way.
 
-3. Another helpful guide to used the package can be seen here:
+3. Another helpful guide to used the package can be seen in the following page, which shows how to use the package in Python environment:
 
 ```
 https://github.com/lileipisces/Sentires-Guide
