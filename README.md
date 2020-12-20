@@ -40,16 +40,15 @@ For more details of how to configure and run the toolkit on your dataset, please
 [1] quality | good 5 3
 ```
 
-Here, "quality" is the feature word, "good" is the opinion word, [1] means that the sentiment of the feature-opinion pair is positive. What may be confusing is the meaning of 5 and 3. For a feature-opinion pair, users can use it in the "normal order" to describe his/her opinion, and they can also use it in inverse order. For example, the user can say that "the quality is good" (normal order), or can say that "it has a good quality" (inverse order), so 5 and 3 means the number of times that the pair is used in normal order and inverse order in your corpus, respectively. As a result, 5+3=8 is the total number of times that the pair was mentioned in your corpus.
+Here, "quality" is the feature word, "good" is the opinion word, [1] means that the sentiment of the feature-opinion pair is positive. What may be confusing is the meaning of 5 and 3. For a feature-opinion pair, users can use it in the "normal order" to describe their opinion, and they can also use it in inverse order. For example, the user can say that "the quality is good" (normal order), or say that "it has a good quality" (inverse order), so 5 and 3 means the number of times that the pair is used in normal order and inverse order in your corpus, respectively. As a result, 5+3=8 is the total number of times that the pair was mentioned in your corpus.
 
-2. After you generated the lexicon file, you may want to know how to determine which pairs are mentioned in each sentence. You do not have to do this manually, instead, you may want to run the "profile" step to generate the results. In the profile task file (e.g., the "2014.nus.profile.task" file), one configure is missing in this shared package, please add the following line into this file.
+2. After you generated the lexicon file, you may want to know how to determine which pairs are mentioned in each sentence. You do not have to do this manually, instead, you may want to run the "profile" step to generate the results. In some of the ".profile.task" files under the "task" folder, one configure line is missing, please add the following line into this file if you run the profile task.
 
 ```
 profile.indicatorfile = ${path.profile}/2014.nus.utf.indicator
 ```
 
-In this way the package will run without bug. For the Chinese version, you need to modified the corresponding task file in a similar way.
-
+You may refer to the "2014.nus.profile.task" file, which is a complete profile task file. For the Chinese version, you need to modified the corresponding task file in a similar way.
 
 
 ## References
