@@ -20,7 +20,7 @@ The toolkit builds a lexicon based on 6 steps (corresponding to 6 tasks), the 6 
 
 - **Step 2**. "pos" task: it conducts Part-of-Speech (POS) tagging based on Stanford POS tagger. It takes a ".select" file as input and outputs a ".seg" file.
 
-- **Step 3**. "validate" task: it refines the part-of-speech tagging results, to generate a POS tagging file better suited for feature-opinion extraction. It takes the above ".seg" file as input, and generate another ".seg" file. To distinguish them, you may take a look at the .seg file. The Stanford POS taggers have at least 2 characters (e.g., /NN, /RB, /VBD), while in the refined .seg file each tagger only has one character (e.g., /N, /V, /P, /X).
+- **Step 3**. "validate" task: it refines the part-of-speech tagging results, to generate a POS tagging file better suited for feature-opinion extraction. It takes the above ".seg" file as input and generates another ".seg" file. To distinguish them, you may take a look at the .seg file. The Stanford POS taggers have at least 2 characters (e.g., /NN, /RB, /VBD), while in the refined .seg file each tagger only has one character (e.g., /N, /V, /P, /X).
 
 - **Step 4**. "lexicon" task: it extracts the feature-opinion pairs and their sentiments. It takes the refined .seg file as input, and outputs the final ".lexicon" file. Each row in the lexicon file is a "feature|opinion|sentiment" triplet.
 
