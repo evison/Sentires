@@ -8,7 +8,7 @@ This is not a trivial task since in many cases the sentiment is context aware, e
 
 Extracting feature-opinion pairs and their sentiments from text corpora is important to many tasks, e.g., they help to develop explainable recommendatioin models [1,2,3,4], analyze customer and/or public opinions [5], and build conversational AI systems [6].
 
-## Instructions
+## Instruction
 
 The toolkits builds a lexicon based on 6 steps (corresponding to 6 tasks), the 6 steps should be executed one by one in the correct order:
 
@@ -18,16 +18,19 @@ The toolkits builds a lexicon based on 6 steps (corresponding to 6 tasks), the 6
 
 - **Step 3**. "validate" task: it refines the part-of-speech tagging results, to generate a POS tagging file better suited for feature-opinion extraction. It takes the above ".seg" file as input, and generate another ".seg" file. To distinguish them, you may take a look at the .seg file. The Stanford POS taggers have at least 2 characters (e.g., /NN, /RB, /VBD, etc.), while in the refined .seg file each tagger only has one character (e.g., /N, /V, /P, /X, etc.).
 
-- **Step 4**. "lexicon" task: it extract the feature-opinion pairs and their sentiments. It takes the refined .seg file as input, and outputs the final ".lexicon" file. Each row in the lexicon file is a "feature|opinion|sentiment" triplet.
+- **Step 4**. "lexicon" task: it extracts the feature-opinion pairs and their sentiments. It takes the refined .seg file as input, and outputs the final ".lexicon" file. Each row in the lexicon file is a "feature|opinion|sentiment" triplet.
 
 - **Step 5**. (Optional) "eval" task: it conducts some basic evaluation for the quality of the generated lexicon. However, you would need to provide some (small scale) human labeled pairs to run this task.
 
-- **Step 6**. (Optional) "profile" tasks: it detects which feature-opinion pair(s) are included in each sentence in the input file. This seems a trivial task but it’s actually not very easy because we have to consider the context and grammar rules. It takes a .lexicon file and the original corpus file as input, and outputs two ".profile" files.
+- **Step 6**. (Optional) "profile" tasks: it detects which feature-opinion pair(s) are included in each sentence in the input file. This seems a trivial task but it's actually not very easy because we have to consider the context and grammar rules. It takes a .lexicon file and the original corpus file as input, and outputs two ".profile" files.
 
-You do not have to train anything domain specific, only need to make sure that your input corpus is domain specific (i.e., better not mix movie reviews with other reviews such as restaurant). The toolkit still works if the input corpus is a mixture of reviews from many domains, but it may influence the quality of the extracted feature-opinion pairs, because the underlying algorithms are based on statistical machine learning anyway.
+## Notes
 
-A final note is that the parameters in the "lexicon" task will influence the trade-off between the quantity and quality of the extracted feature-opinion pairs. We provide two pre-set parameters: preset/relax.threshold and preset/strict.threshold. In the task/2014.nus.lexicon.task file, they are referenced at line 65. The default selection is relax.threshold, which extracts more (but some may be wrong) pairs. The strict.threshold selection will extract less (but more confident) pairs. For normal users using the relax.threshold is already sufficient because we have carefully tuned the parameters in many domains, so it should give us the best trade-off. However, advanced users can change the parameter settings to get the results they need.
+- You do not have to train anything domain specific, only need to make sure that your input corpus is domain specific (i.e., better not mix movie reviews with other reviews such as restaurant). The toolkit still works if the input corpus is a mixture of reviews from many domains, but it may influence the quality of the extracted feature-opinion pairs, because the underlying algorithms are based on statistical machine learning anyway.
 
+- A final note is that the parameters in the "lexicon" task will influence the trade-off between the quantity and quality of the extracted feature-opinion pairs. We provide two pre-set parameters: preset/relax.threshold and preset/strict.threshold. In the task/2014.nus.lexicon.task file, they are referenced at line 65. The default selection is relax.threshold, which extracts more (but some may be wrong) pairs. The strict.threshold selection will extract less (but more confident) pairs. For normal users, using the relax.threshold is already sufficient because we have carefully tuned the parameters in many domains, so it should give us the best trade-off. However, advanced users can change the parameter settings to get the results they need.
+
+## One More Thing
 To help run the toolkit more smoothly, we have included some of the known issues and the corresponding solutions, hope they will help to save time when using the toolkit.
 
 
