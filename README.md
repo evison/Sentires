@@ -8,7 +8,7 @@ For exmple, in the customer reviews of the mobile phone product domain, some exa
 
 The task is challenging since in many cases the sentiment is context-aware, e.g., for the same opinion word "high," when it is used to describe the feature word "quality" (i.e., quality|high), it presents a positive sentiment, however, when it is used to describe the feature word "noise" (i.e., noise|high), it instead presents a negative sentiment.
 
-The package further contains a module that is capable of matching the triplets contained in a sentence or a paragraph. Some techniques of this toolkit are presented in papers [1,5]. Extracting feature-opinion pairs and their sentiments from text corpora is very helpful to many tasks, e.g., they help to develop explainable recommendatioin models [1,2,3,4,7,8], analyze customer and/or public opinions [5], and build conversational AI systems [6].
+The package further contains a module that is capable of matching the triplets contained in a sentence or a paragraph. Some techniques of this toolkit are presented in papers [1,5,9]. Extracting feature-opinion pairs and their sentiments from text corpora is very helpful to many tasks, e.g., they help to develop explainable recommendatioin models [1,2,3,4,7,8], analyze customer and/or public opinions [5], and build conversational AI systems [6].
 
 The executable jar balls are provided in two versions, one for processing [English](https://github.com/evison/Sentires/tree/main/English) texts, and the other for  processing [Chinese](https://github.com/evison/Sentires/tree/main/Chinese) texts. Instructions of using the package are provided in the following.
 
@@ -101,4 +101,7 @@ In this guide, the toolkit was used to generate natural language expalantions fo
 [8] Xu Chen, Zheng Qin, Yongfeng Zhang, and Tao Xu.
     "Learning to rank features for recommendation over multiple categories."
     In Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, pp. 305-314. 2016.
+[9] Yongfeng Zhang, Min Zhang, Yiqun Liu, and Shaoping Ma.
+    "Boost phrase-level polarity labelling with review-level sentiment classification." 
+    arXiv preprint arXiv:1502.03322 (2015).
 ```
