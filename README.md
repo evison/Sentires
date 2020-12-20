@@ -1,12 +1,19 @@
 # Sentires: A Toolkit for Phrase-level Sentiment Analysis
 
-To help run the toolkit more smoothly, I have included some of the known issues and the corresponding solutions, hope they will help to save time when using the toolkit.
+This is a package for phrase-level sentiment analysis, using the package, we can extract **feature|opinion|sentiment** triplets from free-text corpus, e.g., 
 
+context-aware 
+
+
+To help run the toolkit more smoothly, we have included some of the known issues and the corresponding solutions, hope they will help to save time when using the toolkit.
+
+```
 1. When you have generated the sentiment lexicon file, each row of the file will look like this: 
 
-[1] quality | good 5 3
+**[1] quality | good 5 3**
 
 Here, “quality” is the feature word, “good” is the opinion word, [1] means that the sentiment of the feature-opinion pair is positive. What may be confusing is the meaning of 5 and 3. For a feature-opinion pair, users can use it in the “normal order” to describe his/her opinion, and they can also use it in inverse order. For example, the user can say that “the quality is good” (normal order), or can say that “it has a good quality” (inverse order), so 5 and 3 means the number of times that the pair is used in normal order and inverse order in your corpus, respectively. As a result, 5+3=8 is the total number of times that the pair was mentioned in your corpus.
+```
 
 2. After you generated the lexicon file, you may want to know how to determine which pairs are mentioned in each sentence. You do not have to do this manually, instead, you may want to run the “profile” step to generate the results. In the profile task file (e.g., the "2014.nus.profile.task” file), one configure is missing in this shared package, please add the following line into this file.
 
