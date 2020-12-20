@@ -59,6 +59,8 @@ For the English version, you may refer to the "2014.nus.profile.task" file under
 
    ![](image/image-1.png)
 
+In this example, the 'e' row means a product ID (or just the ID of a group of texts), 62 means there are 62 feature words detected in the texts of the product. Following the 'e' row, each 'f' row is one of the 62 detected features, and following each 'f' row, each 'o' row is an opinion word detected for that feature word. Following the 'o' row, each 'c' row is the corresponding sentence that contains the 'feature|opinion' pair.
+
 4. Another helpful guide to used the package can be seen in the following page, which shows how to use the package in Python environment:
 
 ```
