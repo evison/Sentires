@@ -8,7 +8,9 @@ or from here:
 
 Note: If you use the version downloaded from [2], you need to add two lines of configuration:
 
+```
 profile.indicatorfile = ${path.profile}/2013.tv.utf.indicator
 profile.indicatorfile.charset = UTF8
+```
 
 into the "2013.tv.profile.task" file under the "task" folder. Please see the [README.md](https://github.com/evison/Sentires/blob/main/README.md) for more information.
