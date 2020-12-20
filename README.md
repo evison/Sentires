@@ -10,7 +10,7 @@ The task is challenging since in many cases the sentiment is context-aware, e.g.
 
 The package further contains a module that is capable of matching the triplets contained in a sentence or a paragraph. Some techniques of this toolkit are presented in papers [1,5]. Extracting feature-opinion pairs and their sentiments from text corpora is very helpful to many tasks, e.g., they help to develop explainable recommendatioin models [1,2,3,4,7,8], analyze customer and/or public opinions [5], and build conversational AI systems [6].
 
-The executable jar balls are provided in two versions, one for processing [English](https://github.com/evison/Sentires/tree/main/English) texts, and the other for  processing [Chinese](https://github.com/evison/Sentires/tree/main/Chinese) texts.
+The executable jar balls are provided in two versions, one for processing [English](https://github.com/evison/Sentires/tree/main/English) texts, and the other for  processing [Chinese](https://github.com/evison/Sentires/tree/main/Chinese) texts. Instructions of using the package are provided in the following.
 
 ## Instruction
 
