@@ -48,7 +48,7 @@ Here, "quality" is the feature word, "good" is the opinion word, [1] means that 
 profile.indicatorfile = ${path.profile}/2014.nus.utf.indicator
 ```
 
-You may refer to the "2014.nus.profile.task" file, which is a complete profile task file. For the Chinese version, you need to modified the corresponding task file in a similar way.
+For the English version, you may refer to the "2014.nus.profile.task" file under the "task" folder, which is a complete profile task file. For the Chinese version, you need to modified the corresponding task file in a similar way.
 
 
 ## References
