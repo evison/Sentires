@@ -67,7 +67,8 @@ In this example, the 'e' row means a product ID (or just the ID of a group of te
 
 In this file, these numbers are some scoring functions we developed to indicate users' overall evaluation of the item based on the reviews, e.g., 1.0 means the feature "silicon" appeared as a positive feature in the item's review for once, while 0.0 means it appeared as a negative feature for 0 times. Anyway, these are just some debugging information we used when developing the project. You do not have to care about the numbers in the [dataset].indicator file, because all the information used to calculate these numbers are already included in the [dataset].pos.profile and [dataset].neg.profile files.
 
-5. There is another helpful guide to use the package, which can be seen in the following page. It shows how to use the package in Python environment.
+5. There is another helpful guide to use the package, which can be seen in the following page ([Sentires-Guide](https://github.com/lileipisces/Sentires-Guide
+)). It shows how to use the package in Python environment.
 
 ```
 https://github.com/lileipisces/Sentires-Guide
