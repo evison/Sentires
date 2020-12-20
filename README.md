@@ -22,7 +22,7 @@ The toolkit builds a lexicon based on 6 steps (corresponding to 6 tasks), the 6 
 
 - **Step 5**. (Optional) "eval" task: it conducts some basic evaluation for the quality of the generated lexicon. However, you would need to provide some (small scale) human labeled pairs to run this task.
 
-- **Step 6**. (Optional) "profile" tasks: it detects which feature-opinion pair(s) are included in each sentence in the input file. This seems a trivial task but it's actually not very easy because we have to consider the context and grammar rules. It takes a .lexicon file and the original corpus file as input, and outputs two ".profile" files.
+- **Step 6**. (Optional) "profile" tasks: it detects which feature-opinion pair(s) are included in each sentence in the input file. This seems a trivial task but it's actually not very easy because we have to consider the context and grammar rules. It takes a ".lexicon" file and the original corpus file as input, and outputs two ".profile" files.
 
 For more details of how to configure and run the toolkit on your dataset, please refer to the "Project-configuration-and-usage.pdf" file included in the package.
 
