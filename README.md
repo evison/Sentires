@@ -10,7 +10,7 @@ Extracting feature-opinion pairs and their sentiments from text corpora is very 
 
 ## Instruction
 
-The toolkits builds a lexicon based on 6 steps (corresponding to 6 tasks), the 6 steps should be executed one by one in the correct order:
+The toolkit builds a lexicon based on 6 steps (corresponding to 6 tasks), the 6 steps should be executed one by one in the correct order:
 
 - **Step 1**. "pre" task: it conducts some pre-processing over your input data, such as removing sentences that are too short or grammatically incorrect. It takes the ".raw" file as input and outputs a “.select” file.
 
