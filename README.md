@@ -33,8 +33,6 @@ For more details of how to configure and run the toolkit on your dataset, please
 - A final note is that the parameters in the "lexicon" task will influence the trade-off between the quantity and quality of the extracted feature-opinion pairs. We provide two pre-set parameters: preset/relax.threshold and preset/strict.threshold. In the task/2014.nus.lexicon.task file, they are referenced at line 65. The default selection is relax.threshold, which extracts more (but some may be wrong) pairs. The strict.threshold selection will extract less (but more confident) pairs. For normal users, using the relax.threshold is already sufficient because we have carefully tuned the parameters in many domains, so it should give us the best trade-off. However, advanced users can change the parameter settings to get the results they need.
 
 ## One More Thing
-To help run the toolkit more smoothly, we have included some of the known issues and the corresponding solutions, hope they will help to save time when using the toolkit.
-
 
 1. When you have generated the sentiment lexicon file, each row of the file will look like this: 
 
