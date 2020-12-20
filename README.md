@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This is a package for phrase-level sentiment analysis, using the package we can extract **feature|opinion|sentiment** triplets from free-text corpus such as customer reviews in e-commerce as well as tweets and messages in social networks. For example, a triplet may be "quality|good|positive", which means when the opinion word "good" is used to describe feature word "quality" the feature-opinion pair presents a positive sentiment. 
+This is a package for phrase-level sentiment analysis, using the package we can extract **feature|opinion|sentiment** triplets from free-text corpus such as customer reviews in e-commerce as well as tweets and messages in social networks. For example, a triplet may be "quality|good|positive", which means when the opinion word "good" is used to describe feature word "quality," the feature-opinion pair presents a positive sentiment. 
 
-This is not a trivial task since in many cases the sentiment is context aware, e.g., for the same opinion word "high", when used to describe the feature word "quality" (i.e., quality|high), it presents a positive sentiment, however, when used to describe the feature word "noise" (i.e., noise|high), it instead presents a negative sentiment.
+This is a challenging task since in many cases the sentiment is context aware, e.g., for the same opinion word "high", when used to describe the feature word "quality" (i.e., quality|high), it presents a positive sentiment, however, when used to describe the feature word "noise" (i.e., noise|high), it instead presents a negative sentiment.
 
 Extracting feature-opinion pairs and their sentiments from text corpora is important to many tasks, e.g., they help to develop explainable recommendatioin models [1,2,3,4], analyze customer and/or public opinions [5], and build conversational AI systems [6].
 
