@@ -24,6 +24,8 @@ The toolkit builds a lexicon based on 6 steps (corresponding to 6 tasks), the 6 
 
 - **Step 6**. (Optional) "profile" tasks: it detects which feature-opinion pair(s) are included in each sentence in the input file. This seems a trivial task but it's actually not very easy because we have to consider the context and grammar rules. It takes a .lexicon file and the original corpus file as input, and outputs two ".profile" files.
 
+For more details of how to configure and run the toolkit on your dataset, please refer to the "Project-configuration-and-usage.pdf" file included in the package.
+
 ## Notes
 
 - You do not have to train anything domain specific, only need to make sure that your input corpus is domain specific (i.e., better not mix movie reviews with other reviews such as restaurant). The toolkit still works if the input corpus is a mixture of reviews from many domains, but it may influence the quality of the extracted feature-opinion pairs, because the underlying algorithms are based on statistical machine learning anyway.
