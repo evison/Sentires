@@ -105,10 +105,13 @@ In this guide, the toolkit was used to generate natural language expalantions fo
 [9] Yongfeng Zhang, Min Zhang, Yiqun Liu, and Shaoping Ma.
     "Boost phrase-level polarity labelling with review-level sentiment classification." 
     arXiv preprint arXiv:1502.03322 (2015).
-[10] Lei Li, Yongfeng Zhang, and Li Chen. "Personalized Transformer for Explainable Recommendation." ACL 2021.
-[11] Lei Li, Yongfeng Zhang, and Li Chen. "EXTRA: Explanation Ranking Datasets for Explainable Recommendation." SIGIR 2021.
-[12] Juntao Tan, Shuyuan Xu, Yingqiang Ge, Yunqi Li, Xu Chen, and Yongfeng Zhang. "Counterfactual explainable recommendation." In Proceedings of the 30th ACM International Conference on Information & Knowledge Management, pp. 1784-1793. 2021.
-
-
-
+[10] Lei Li, Yongfeng Zhang, and Li Chen. 
+    "Personalized Transformer for Explainable Recommendation." 
+    In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL), pages 4947–4957, August 1–6, 2021.
+[11] Lei Li, Yongfeng Zhang, and Li Chen. 
+    "EXTRA: Explanation Ranking Datasets for Explainable Recommendation."
+    In Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, July 2021.
+[12] Juntao Tan, Shuyuan Xu, Yingqiang Ge, Yunqi Li, Xu Chen, and Yongfeng Zhang. 
+    "Counterfactual explainable recommendation." 
+    In Proceedings of the 30th ACM International Conference on Information & Knowledge Management, pp. 1784-1793. 2021.
 ```
