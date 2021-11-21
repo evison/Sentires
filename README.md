@@ -74,7 +74,7 @@ In this file, these numbers are some scoring functions we developed to indicate 
 https://github.com/lileipisces/Sentires-Guide
 ```
 
-In this guide, the toolkit was used to generate natural language expalantions for personalized recommendation [7].
+In this guide, the toolkit was used to generate natural language expalantions for personalized recommendation [7,10], generate counterfactual explanations [12] and create explanation ranking dataset [11].
 
 ## References
 ```
@@ -105,4 +105,10 @@ In this guide, the toolkit was used to generate natural language expalantions fo
 [9] Yongfeng Zhang, Min Zhang, Yiqun Liu, and Shaoping Ma.
     "Boost phrase-level polarity labelling with review-level sentiment classification." 
     arXiv preprint arXiv:1502.03322 (2015).
+[10] Lei Li, Yongfeng Zhang, and Li Chen. "Personalized Transformer for Explainable Recommendation." ACL 2021.
+[11] Lei Li, Yongfeng Zhang, and Li Chen. "EXTRA: Explanation Ranking Datasets for Explainable Recommendation." SIGIR 2021.
+[12] Juntao Tan, Shuyuan Xu, Yingqiang Ge, Yunqi Li, Xu Chen, and Yongfeng Zhang. "Counterfactual explainable recommendation." In Proceedings of the 30th ACM International Conference on Information & Knowledge Management, pp. 1784-1793. 2021.
+
+
+
 ```
